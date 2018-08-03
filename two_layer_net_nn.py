@@ -1,5 +1,9 @@
+#===========================================#
+#                 Sample 1                  #
+#              two_layer_net_nn             #
+#                  python3                  #
+#===========================================#
 # Code in file two_layer_net_nn.py
-#code again from 
 import torch
 
 device = torch.device('cpu')
