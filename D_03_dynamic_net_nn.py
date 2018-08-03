@@ -15,7 +15,6 @@ import random
 class DynamicNet(torch.nn.Module):
     def __init__(self, D_in, H, D_out):
         """
-
         :param D_in: input dimension
         :param H: hidden dimension
         :param D_out: output dimension
@@ -33,7 +32,7 @@ class DynamicNet(torch.nn.Module):
         :return:  y_pred
         """
         h_relu = self.input_linear(x).clamp(min=0)
-        for _ in range(random.randint(0, 3)):           #####Dynamic graph
+        for _ in range(random.randint(0, 3)):           # Dynamic graph
             h_relu = self.middle_linear(h_relu).clamp(min=0)
         y_pred = self.output_linear(h_relu)
         return y_pred
