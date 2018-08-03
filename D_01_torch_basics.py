@@ -1,7 +1,7 @@
 #--------------------------------------------------#
 # Some part of the code referenced from below      #
-
-#-------------------------------------------#
+# https://github.com/yunjey/pytorch-tutorial       #
+#--------------------------------------------------#
 import torch
 import torchvision
 import torch.nn as nn
