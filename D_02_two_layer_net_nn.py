@@ -1,3 +1,8 @@
+#--------------------------------------------------#
+# The code referenced from below                   #
+# https://github.com/jcjohnson/pytorch-examples    #
+#--------------------------------------------------#
+
 #===========================================#
 #                 Sample 1                  #
 #              two_layer_net_nn             #
