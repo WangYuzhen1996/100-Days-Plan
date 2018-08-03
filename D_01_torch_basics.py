@@ -1,3 +1,7 @@
+#--------------------------------------------------#
+# Some part of the code referenced from below      #
+
+#-------------------------------------------#
 import torch
 import torchvision
 import torch.nn as nn
